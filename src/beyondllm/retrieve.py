@@ -5,7 +5,7 @@ from beyondllm.embeddings import GeminiEmbeddings
 from beyondllm.retrievers.normalRetriever import NormalRetriever
 from beyondllm.retrievers.utils import generate_qa_dataset, evaluate_from_dataset
 import pandas as pd
-
+#random kbvjkvdjvbksbvjdvkdfvs
 def auto_retriever(data=None,embed_model=None,type="normal",top_k=4,vectordb=None,**kwargs):
     """
     Automatically selects and initializes a retriever based on the specified type.
